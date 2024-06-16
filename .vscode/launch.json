@@ -1,0 +1,13 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Debug conan-updater-bgfx",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "conan-updater-bgfx.py",
+            "console": "integratedTerminal",
+            "args": "--conan-center-index ../conan-center-index"
+        }
+    ]
+}
